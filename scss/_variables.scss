@@ -1,0 +1,25 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+$blue: #2f81f9;
+$red: #ef645c;
+$green: #09d274;
+$primary-2: #1b1f3b;
+
+$transition-base: all .2s ease-in-out;
+$transition-fade: opacity .15s linear;
+$transition-collapse: height .35s ease;
+$transition-time-fast: .1s;
+
+/*!
+ * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+
+// Variables
+// --------------------------
+// $fa-font-path:         "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/webfonts";

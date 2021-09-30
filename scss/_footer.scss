@@ -1,0 +1,53 @@
+.site-footer {
+  @include padding-top(6rem);
+  @include padding-bottom(2.5rem);
+  background-color: $primary-2;
+}
+
+.footer-contact {
+  .card-body {
+    @include padding(2rem);
+  }
+
+  .content {
+    z-index: 2;
+  }
+
+  .h3 {
+    @include font-size(1.75rem);
+  }
+
+  svg {
+    path {
+      fill: #ff8e88;
+    }
+  }
+}
+
+.social {
+  li {
+    a {
+      @include font-size(1.5rem);
+
+      &:hover {
+        color: $gray-300 !important;
+      }
+    }
+  }
+}
+
+.toast-notice {
+  top: 80px;
+}
+
+.float {
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: 1020;
+
+  a {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+  }
+}

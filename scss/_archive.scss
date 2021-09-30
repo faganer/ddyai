@@ -1,0 +1,27 @@
+.category-banner {
+  background-image: url("../images/banner-normal.fw.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  .container {
+    @include padding-top(10.5rem);
+    @include padding-bottom(6rem);
+  }
+
+  h1 {
+    &.display-4 {
+      @include font-size(2.5rem);
+    }
+  }
+
+  svg {
+    @include height(6rem);
+    fill: #fff;
+  }
+}
+
+.post-list {
+  @include padding-top(6rem);
+  @include padding-bottom(6rem);
+}

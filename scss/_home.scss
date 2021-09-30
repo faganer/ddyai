@@ -1,0 +1,75 @@
+/* stylelint declaration-no-important */
+.home-banner {
+  min-height: 70vh;
+  padding-top: 56px;
+  background-image: url("../images/home-banner-bg.fw.png");
+  background-position: center bottom;
+  background-size: cover;
+
+  h1 {
+    @include font-size(3.5rem);
+  }
+
+  .code {
+    @include font-size(2rem);
+  }
+}
+
+.home-mod-1 {
+  .head {
+    @include padding-top(6rem);
+    @include padding-bottom(6rem);
+  }
+
+  .h1 {
+    @include font-size(2.5rem);
+  }
+
+  .content-item {
+    @include padding-bottom(6rem);
+    line-height: 1.8;
+
+    h3 {
+      @include font-size(1.75rem);
+      line-height: 1.8;
+    }
+    @include heading-mb ();
+  }
+}
+
+.home-mod-2 {
+  @include padding-top(6rem);
+  @include margin-bottom(6rem);
+  background-color: #f3f5fb;
+
+  .head {
+    @include margin-bottom(3rem);
+  }
+
+  h2 {
+    @include font-size(2.5rem);
+  }
+
+  svg {
+    @include height(96px);
+    fill: $white;
+  }
+
+  .more {
+    a {
+      &:hover {
+        span {
+          &:last-child {
+            margin-left: .5rem !important;
+          }
+        }
+      }
+    }
+
+    span {
+      &:last-child {
+        transition: all .3s ease-in-out;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.single {
+  article {
+    &.post {
+      @include padding-top(104px);
+    }
+  }
+
+  a {
+    &[data-fancybox] {
+      cursor: zoom-in;
+    }
+  }
+}
+
+.entry-body {
+  @include heading-mb ();
+}

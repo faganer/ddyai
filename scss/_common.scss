@@ -1,0 +1,89 @@
+img {
+  max-width: 100%;
+}
+
+blockquote {
+  padding-left: 20px;
+  border-left: 4px solid $green;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto;
+}
+
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.wp-caption {
+  max-width: 96%;
+  padding: 5px 3px 10px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+
+  /* Image does not overflow the content area */
+  @include margin-bottom(1rem);
+}
+
+.wp-caption.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+  margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+  margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+  width: auto;
+  max-width: 98.5%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+  padding: 0 4px 5px;
+  margin: 0;
+  font-size: 11px;
+  line-height: 17px;
+}
